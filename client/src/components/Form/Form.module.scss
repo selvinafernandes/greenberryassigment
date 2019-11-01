@@ -1,0 +1,48 @@
+@import '../../sass/styles.scss';
+
+.form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem;
+
+	&Filter {
+		margin: 1rem;
+	}
+
+	&Filter::before {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 20%;
+		height: 100%;
+		text-align: center;
+		font-size: 28px;
+		line-height: 45px;
+		color: rgba(255, 255, 255, 0.5);
+		background-color: rgba(255, 255, 255, 0.1);
+		pointer-events: none;
+	}
+
+	select {
+		color: $dark-grey;
+		padding: 12px;
+		width: 100%;
+		border: none;
+		font-size: 20px;
+		background-color: white;
+		border-radius: 0.25rem;
+		box-shadow: 0 2px 31px -4px rgba(0, 0, 0, 0.25);
+		-webkit-appearance: button;
+		appearance: button;
+		outline: none;
+
+		@include for-desktop() {
+			width: 250px;
+		}
+	}
+
+	@include for-desktop() {
+		flex-direction: row;
+	}
+}

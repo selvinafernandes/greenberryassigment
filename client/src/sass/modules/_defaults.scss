@@ -1,0 +1,52 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	color: #51352e;
+}
+
+body {
+  color: $black;
+  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+}
+
+.role-italic {
+	font-style: italic;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: $white;
+  border: 1px solid $grey;
+  //border-radius: 1rem;
+  color: $dark-grey;
+  padding: 0.5rem;
+  text-transform: lowercase;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+

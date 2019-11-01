@@ -1,0 +1,52 @@
+@import './../../sass/styles.scss';
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	@include for-desktop() {
+		padding: 0 10rem;
+	}
+}
+
+.loader {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+	border: 10px solid black;
+	border-radius: 50%;
+	border-top: 10px solid grey;
+	width: 30px;
+	height: 30px;
+	-webkit-animation: spin 5s linear infinite;
+	animation: spin 5s linear infinite;
+	@include for-desktop() {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

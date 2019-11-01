@@ -1,0 +1,18 @@
+$font-pack: 'HelveticaNeue-Bold', sans-serif;
+$primary-color: #fa7154;
+$white: #ffffff;
+$black: #000;
+$grey: #D3D3D3;
+$dark-grey: #2f4f4f;
+
+$breakpoints: (
+	'small': 350px,
+	'phone': 400px,
+	'phone-wide': 480px,
+	'phablet': 560px,
+	'tablet-small': 640px,
+	'tablet': 768px,
+	'tablet-wide': 1024px,
+	'desktop': 1248px,
+	'desktop-wide': 1440px
+);
