@@ -3,11 +3,11 @@
 This project shows all the characters retrieved from the SWAPI API and in turn filters based on the properties specified.
 
 - [Star Wars API Docs](https://swapi.co/documentation)
-- [Star Wars API GraphiQL interface][https://graphiql.graphcms.com/simple/v1/swapi] - SWAPI GraphQL for getting the filter results
+- [Star Wars API GraphiQL interface](https://graphiql.graphcms.com/simple/v1/swapi) - SWAPI GraphQL for getting the filter results
 
 ## Installation
 
-- Git clone this project from [here](https://github.com/selvinafernandes/SWAPI-Impl.git)
+- Git clone this project.
 
 - Run npm install on server as well as client folder
 
@@ -29,7 +29,7 @@ You will also see any errors in the console.
 
 Runs the client in the development mode.<br>
 
-### `npm test`
+### `npm run test`
 
 Will run your test files.
 
@@ -39,7 +39,7 @@ Will run the server separately
 
 ## Using CSS
 
-For this application we are using scss with camelCase classes for nesting. For React you will style at the style file in your component folder `<style>`
+For this application we are using scss with camelCase classes for nesting. For React you will style in the style file present in your particular component folder.
 
 ```scss
 .modal {
