@@ -2,20 +2,18 @@
 
 This project shows all the characters retrieved from the SWAPI API and in turn filters based on the properties specified.
 
-- SWAPI API for getting all the characters
-- SWAPI GraphQL for getting the filter results
+- [Star Wars API Docs](https://swapi.co/documentation)
+- [Star Wars API GraphiQL interface][https://graphiql.graphcms.com/simple/v1/swapi] - SWAPI GraphQL for getting the filter results
 
 ## Installation
 
-- Git clone this project from []
+- Git clone this project from [here](https://github.com/selvinafernandes/SWAPI-Impl.git)
 
 - Run npm install on server as well as client folder
 
 ```bash
 npm install
 ```
-
-## Usage
 
 ## Available Scripts
 
